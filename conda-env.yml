@@ -1,0 +1,11 @@
+# conda env create -f conda-env.yml
+
+name: uofuchpc.posix
+channels:
+  - defaults
+dependencies:
+  - python=3.9.16
+  - pip
+  - pip:
+      - ansible==8.5.0
+      - ansible-lint==6.21.1

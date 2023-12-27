@@ -1,0 +1,8 @@
+
+# Ansible
+*.portal.yml
+!demo.portal.yml
+build/
+
+# Python
+venv/
